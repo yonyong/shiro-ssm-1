@@ -91,7 +91,7 @@
 		<property name="arguments" ref="securityManager" />
 	</bean>
 
-	<bean id="databaseRealm" class="com.how2java.realm.DatabaseRealm">
+	<bean id="databaseRealm" class="cn.yonyong.shiro.realm.DatabaseRealm">
     </bean>
     
 	<!-- 保证实现了Shiro内部lifecycle函数的bean执行 -->
